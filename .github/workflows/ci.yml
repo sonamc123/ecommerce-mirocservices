@@ -2,12 +2,12 @@ name: CI - Build, Push, and Update Manifests
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 env:
-  DOCKER_HUB_USER: thallavi
+  DOCKER_HUB_USER: sonamsc507
 
 jobs:
   build-and-push:
