@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: ecommerce-ui
-        image: sonamsc507/ecommerce-ui:5a256ad173b3174fbdcb2202386b103408f8dfa5
+        image: sonamsc507/ecommerce-ui:6be24afe0095f02060e05f1b25715e1fafb6add1
         ports:
         - containerPort: 4000
         env:
